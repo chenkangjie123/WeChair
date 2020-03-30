@@ -106,3 +106,44 @@
 + 时间限制:假设该项目完成的时间不会前移
 + 可操作性:假设大多数用户对于该小程序都能灵活操作
 + 可行性:假设图书馆会给予项目鼓励并大力支持</font>
+<br/><br/><br/><br/>
+<p align=center><b><font size=7>第三章&emsp;功能性需求</font></b></p>
+
+<p><font size=6><b>3.1&emsp;界面原型</b></font></p><br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;<img width="200" height="400" src="https://github.com/irvingming11/WeChair/raw/master/prototype_1.jpg?raw=true" />
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="200" height="400" src="https://github.com/irvingming11/WeChair/raw/master/prototype_2.png?raw=true" />
+<br/><br/><br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;<img width="200" height="400" src="https://github.com/irvingming11/WeChair/raw/master/prototype_3.jpg?raw=true" />
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="200" height="400" src="https://github.com/irvingming11/WeChair/raw/master/prototype_4.jpg?raw=true" /><br/><br/><br/><br/>
+ 
+<p><font size=6><b>3.2&emsp;硬件接口</b></font></p>
+<br/>
+
++ 客户端：
+  + WeChat用户
+  + GPS模块
+  + 小程序API支持
+  + 网络连接支持
++ 服务端:
+  + CPU：2.0GHz以上
+  + 内存：8G以上
+  + 带宽：100Mbps
+  + 存储：100G以上
+
+<br/><br/>
+<p><font size=6><b>3.3&emsp;软件接口</b></font></p>
+<br/>
+
++ 客户端
+ + WeChat版本7.0
+ + 系统定位服务启用
++ 服务端
+ + Java版本1.8以上
+ + Springboot 2.0以上
+ + 数据库：MySQL 8.0 以上
+<br/><br/>
+<p><font size=6><b>3.4&emsp;通信接口</b></font></p>
+<br/>
+
++ 传输层用TCP
++ 应用层使用HTTP
